@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seja Vendedor | Nibuy</title>
+  <link rel="stylesheet" href="seja-vendedor.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Venda no <span class="brand">Nibuy</span></h1>
+    <p>Alcance milhares de clientes e aumente suas vendas de forma simples e rápida.</p>
+    <a href="#cadastro" class="btn-cta">Quero começar</a>
+  </header>
+
+  <section class="beneficios">
+    <h2>Por que vender no Nibuy?</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="icons/visibilidade.svg" alt="Visibilidade">
+        <h3>Mais visibilidade</h3>
+        <p>Seu produto na frente de quem realmente procura.</p>
+      </div>
+      <div class="card">
+        <img src="icons/facilidade.svg" alt="Facilidade">
+        <h3>Plataforma simples</h3>
+        <p>Gerencie seus produtos sem complicação.</p>
+      </div>
+      <div class="card">
+        <img src="icons/lucro.svg" alt="Lucro">
+        <h3>Mais lucro</h3>
+        <p>Taxas baixas e mais retorno pra você.</p>
+      </div>
+    </div>
+  </section>
+
+ <section id="cadastro" class="cadastro">
+  <h2>Cadastre-se e comece a vender</h2>
+  <form class="form-vendedor" action="https://formsubmit.co/SEUEMAILAQUI" method="POST">
+    <input type="text" name="nome" placeholder="Nome completo" required>
+    <input type="email" name="email" placeholder="E-mail" required>
+    <input type="tel" name="telefone" placeholder="Telefone" required>
+    <input type="text" name="loja" placeholder="Nome da loja" required>
+    <textarea name="produto" placeholder="O que pretende vender?" required></textarea>
+    
+    <!-- Configurações escondidas -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Novo vendedor no Nibuy 🚀">
+    <input type="hidden" name="_template" value="table"> 
+    <input type="hidden" name="_next" value="https://eduj007.github.io/Nibuy/sucesso.html">
+
+    <button type="submit">Quero ser vendedor</button>
+  </form>
+</section>
+
+  <footer>
+    <p>© 2025 Nibuy - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>

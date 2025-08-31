@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header.hero {
+  background: linear-gradient(135deg, #ff5722, #ff784e);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header.hero .brand {
+  font-weight: bold;
+}
+
+.btn-cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: white;
+  color: #ff5722;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-cta:hover {
+  background: #ffe0d6;
+}
+
+.beneficios {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.beneficios h2 {
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 280px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.cadastro {
+  background: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.form-vendedor {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-vendedor input,
+.form-vendedor textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.form-vendedor button {
+  padding: 14px;
+  border: none;
+  background: #ff5722;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-vendedor button:hover {
+  background: #e64a19;
+}
+
+footer {
+  background: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}
